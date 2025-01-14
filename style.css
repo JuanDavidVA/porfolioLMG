@@ -1,0 +1,73 @@
+body {
+    background: linear-gradient(to right,#326f8b, rgba(51, 72, 112, 0.711), #102033,rgb(16, 16, 79) );
+    /*background:linear-gradient(45deg,rgb(168, 175, 191),rgb(18, 15, 35),rgb(62, 91, 157),rgb(171, 181, 210));*/
+    padding: 0%;
+    margin: 0%;
+    background-size: 200% 200%;
+}
+
+section h1{
+    margin: 7% 25% 0% 25%;
+    width: 18%;
+}
+.container{
+    width: 100%;
+    height: 80%;
+    display: flex;
+}
+
+.bostrap{
+    width: 100%;
+    height: 20%;
+    margin: 7%;
+    background: linear-gradient(to right,#18a7ca, rgba(51, 72, 112, 0.711), #0d2b4f,rgb(16, 16, 79) );
+    box-shadow: 0 0 5px rgb(199, 201, 196), 0 0 25px rgb(7, 7, 7);
+    color: rgb(234, 255, 0);
+    border-radius: 23px;
+
+}
+.bostrap div a {
+        margin-left: 29%;
+        margin-right: 29%;
+        color: white;
+        font-size: 36px;
+        text-decoration: none;
+}
+.image1{
+    width: auto;
+    height: 100px;
+    margin: 8%;
+
+}
+.bostrap div {
+    max-width: 100%;
+    align-items: center;
+}
+
+.tailwind{
+    width: 100%;
+    height: 20%;
+    margin: 12%;
+    background: linear-gradient(to right,#18a7ca, rgba(51, 72, 112, 0.711), #0d2b4f,rgb(16, 16, 79) );
+    box-shadow: 0 0 5px rgb(199, 201, 196), 0 0 25px rgb(7, 7, 7);
+    color: rgb(234, 255, 0);
+    border-radius: 23px;
+    
+}
+.tailwind div a {
+    margin-top: 2%;
+    margin-left: 29%;
+    margin-right: 29%;
+    color: white;
+    font-size: 36px;
+    text-decoration: none;
+}
+.tailwind div {
+    max-width: 100%;
+}
+.image2{
+    width: auto;
+    height: 43vh;
+    margin: 14%;
+}
+
