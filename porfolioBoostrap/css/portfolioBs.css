@@ -1,0 +1,25 @@
+body {
+    background: linear-gradient(to right,#333333, #010a35, #10111e,#333333 );
+    padding: 0%;
+    margin: 0%;
+    animation: gradientAnimation 5s ease infinite;
+    background-size: 200% 200%;
+} 
+@keyframes gradientAnimation {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+nav{
+    border-radius: 34px;
+    background: linear-gradient(to right,#333333, #5b5b5b, #474747,#333333  );
+}
+.col{
+    margin-left: 122px;
+}

@@ -4,7 +4,7 @@ body {
     margin: 0%;
     animation: gradientAnimation 5s ease infinite;
     background-size: 200% 200%;
-}
+} 
 @keyframes gradientAnimation {
     0% {
         background-position: 0% 50%;
@@ -16,7 +16,6 @@ body {
         background-position: 0% 50%;
     }
 }
-
 header{
     display: flex;
     background: linear-gradient(to right,#333333, #5b5b5b, #474747,#333333  );
@@ -56,46 +55,32 @@ header{
     100% { transform: translateY(-500%); }
   }
 
-  .logo{
+.logo{
     width: 8%;
-  }
-
+}
 .logos {
     display: flex;
     gap: 10px;
     margin: 12px;
 }
-
 .logo {
     width: 30px;
     height: 30px;
     object-fit: contain; 
 }
-
 .logos img {
     margin: 0;
 }
-
 header .clock {
     margin: 0 auto;
     margin-left: 48%;
-}
-
-footer {
-    text-align: center;
-    margin-top: 20px;
-}
-
-footer img {
-    max-width: 100%; 
-    height: auto;
 }
 .datos {
     display: flex;
     flex-direction: column; 
     align-items: center; 
     gap: 20px; 
-    margin-top: 14%;
+    margin-top: 10%;
 }
 .perfil {
     display: flex;
@@ -128,7 +113,6 @@ h4{
     flex-direction: column; 
     gap: 30px; 
 }
-
 .selector a {
     text-decoration: none;
     font-size: 1.5rem;
@@ -164,4 +148,13 @@ h4{
     margin-top: 1%;
     margin-left: 8%;
     object-fit: contain; 
+}
+footer {
+    text-align: center;
+    margin-top: 20px;
+}
+
+footer img {
+    max-width: 100%; 
+    height: auto;
 }
