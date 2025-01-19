@@ -1,5 +1,5 @@
 body {
-    background: linear-gradient(to right,#333333, #010a35, #10111e,#333333 );
+    background: linear-gradient(45deg,#333333, #020f52, #10111e,#041539,#474747,#333333 );
     padding: 0%;
     margin: 0%;
     animation: gradientAnimation 5s ease infinite;
@@ -80,7 +80,7 @@ header .clock {
     flex-direction: column; 
     align-items: center; 
     gap: 20px; 
-    margin-top: 10%;
+    margin-top: 8%;
 }
 .perfil {
     display: flex;
