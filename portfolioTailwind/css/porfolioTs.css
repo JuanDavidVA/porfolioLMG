@@ -1,0 +1,47 @@
+body {
+    background: linear-gradient(45deg,#333333, #020f52, #10111e,#041539,#474747,#333333 );
+    padding: 0%;
+    margin: 0%;
+    animation: gradientAnimation 5s ease infinite;
+    background-size: 200% 200%;
+} 
+@keyframes gradientAnimation {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+*{
+    scrollbar-width: none;
+}
+nav{
+    border-radius: 34px;
+    background: linear-gradient(to right,#333333, #5b5b5b, #474747,#333333  );
+    box-shadow:1px 1px 12px #879ccacc;
+    margin: 30px;
+}
+.grid{
+    margin-top: 103px;
+}
+.bg-gray-100 {
+    background: linear-gradient(
+        to right, 
+        rgba(51, 51, 51, 0.7),  
+        rgba(91, 91, 91, 0.6), 
+        rgba(71, 71, 71, 0.7),  
+        rgba(51, 51, 51, 0.6)   
+      );
+    border-radius: 12px;
+    box-shadow:1px 1px 12px #879ccacc;
+    margin-left: 2%;
+    margin-right: 2%;
+    backdrop-filter:blur(7px);
+}
+h4 {
+    color: white;
+}

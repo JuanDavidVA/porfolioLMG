@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.1">
+    <meta name="description"
+    content="Pagina dedicada a realizar practica de estudio de bostrap y tailwind">
+    <meta name="author" content="Juan David">
+    <title>Portfolio TailWind</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="/portfolioTailwind/css/porfolioTs.css">
+</head>
+<body class="min-h-screen flex flex-col">
+    <header>
+        <nav class="bg-gray-800 p-4 flex justify-between items-center">
+                <div class="flex space-x-2 text-white text-lg">
+                    <span>1</span>
+                    <span>8</span>
+                    <span>:</span>
+                    <span>4</span>
+                    <span>2</span>
+                </div>
+                <div class="flex space-x-3">
+                    <img class="h-6 w-6" src="/imageni/network_wifi_3_bar_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.png" alt="WiFi">
+                    <img class="h-6 w-6" src="/imageni/volume_up_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.png" alt="Volume">
+                    <img class="h-6 w-6" src="/imageni/power_settings_new_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.png" alt="Power">
+                </div>
+        </nav>
+    </header>
+<section class="container mx-auto p-4 flex-grow">
+        <div class="grid grid-cols- md:grid-cols-3 gap-6">
+
+                <div class="bg-gray-100 p-4 rounded shadow">
+                    <h4 class="text-xl font-bold mb-3">Sobre mí:</h4>
+                    <p class="text-gray-700">Aquí puedes incluir información breve sobre ti.</p>
+                </div>
+
+                <div class="bg-gray-100 p-4 rounded shadow">
+                    <h4 class="text-xl font-bold mb-3">Proyectos:</h4>
+                    <div class="relative">
+                        <div class="overflow-hidden relative">
+                            <div class="flex">
+                                <img class="w-1/2 mx-auto" src="/imageni/Bootstrap_logo.svg.png" alt="Project 1">
+                                <img class="w-1/2 mx-auto hidden" src="..." alt="Project 2">
+                                <img class="w-1/2 mx-auto hidden" src="..." alt="Project 3">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                    
+                <div class="bg-gray-100 p-4 rounded shadow">
+                    <h4 class="text-xl font-bold mb-3">Tecnologías:</h4>
+                </div>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mt-6">
+                <div class="bg-gray-100 p-4 rounded shadow">
+                    <h4 class="text-xl font-bold mb-3">Información de contacto:</h4>
+                </div>
+
+                <div class="bg-gray-100 p-4 rounded shadow">
+                    <h4 class="text-xl font-bold mb-3">Más sobre los proyectos:</h4>
+                </div>
+
+                <div class="bg-gray-100 p-4 rounded shadow">
+                    <h4 class="text-xl font-bold mb-3">Experiencia Academica y Laboral:</h4>
+                </div>
+        </div>
+</section>
+
+<footer class="bg-gray-800 text-white text-center p-4">
+    <p class="text-sm">&copy; 2025 Juan David Valencia. Todos los derechos reservados.</p>
+</footer>
+
+</body>
+</html>
