@@ -5,6 +5,7 @@ body {
     animation: gradientAnimation 5s ease infinite;
     background-size: 200% 200%;
 } 
+
 @keyframes gradientAnimation {
     0% {
         background-position: 0% 50%;
